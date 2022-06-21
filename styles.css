@@ -41,8 +41,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 15px;
-    column-gap: 15px;
-    height: 100%;
+    column-gap: 45px;
 }
 
 
@@ -56,6 +55,7 @@ main{
     background-color: white;
     border-radius: 5px;
     margin: 30px;
+
     box-shadow: 3px 3px black; 
 
 }
