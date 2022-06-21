@@ -8,6 +8,7 @@
 body,html{
     height: 100vh;
 }
+
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -31,6 +32,7 @@ nav{
 main{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: #e2e8f0;
 }
 
 
@@ -42,6 +44,26 @@ main{
     column-gap: 15px;
     height: 100%;
 }
+
+
+.cards-header{
+    margin: 15px;
+    text-decoration: underline;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    border: 1px solid gray;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 3px 3px black; 
+
+}
+
+.card1 > *, .card2 > *, .card3 > *, .card4 > *, .card5 >  *, .card6 > *{
+    margin: 15px;
+}
+
 
 .cards-area{
     gap: 15px;
@@ -151,3 +173,4 @@ header{
     justify-content: flex-start;
     align-items: center;
 }
+
