@@ -193,10 +193,11 @@ header{
 .announcements{
     border: 1px solid lightgrey;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 25px;
 
 }
 
 .projects-sidebar{
     margin: 25px;
 }
+
