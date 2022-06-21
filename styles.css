@@ -63,3 +63,48 @@ main{
 input{
     width: 250px;
 }
+
+
+.small-pfp, .tegan-pfp, .kendall-pfp, .alex-pfp{
+    height: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-greeting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-greeting-left{
+    display: grid;
+    grid-template-columns: 100px auto ;
+    grid-template-rows: 50px 50px;
+    width: 100%;
+}
+
+
+.big-pfp{
+    height: 100px;
+    width: auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 15px;
+}
+
+.name{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
