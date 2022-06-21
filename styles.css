@@ -2,6 +2,7 @@
     border-style: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 body,html{
@@ -11,23 +12,27 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+    row-gap: 15px;
 }
 
-div{
-    border: 1px solid blue;
-}
+
 
 nav{
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+    background-color: #404040;
+    color: white;
 }
+
+
 
 main{
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
 
 .cards{
     display: grid;
@@ -109,8 +114,20 @@ header{
 
 }
 
+.sidebar-header{
+    margin-bottom: 45px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
 .trending{
     margin-top: 45px;
+}
+
+.group1, .group2{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .group2{
@@ -118,12 +135,19 @@ header{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 10px;
+    row-gap: 30px;
 }
 
 .group1{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    row-gap: 10px;
+    row-gap: 30px;
+}
+
+.component{
+    display: flex;
+    gap: 25px;
+    justify-content: flex-start;
+    align-items: center;
 }
