@@ -174,3 +174,29 @@ header{
     align-items: center;
 }
 
+.site-maintanence, .share-day, .upload-policy{
+    border-bottom: 1px solid lightgrey;
+}
+
+.site-maintanence > * , .share-day > * , .upload-policy > *{
+    margin: 30px;
+    font-size: 13px;
+}
+
+.a-header{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+.announcements{
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.projects-sidebar{
+    margin: 25px;
+}
