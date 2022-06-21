@@ -4,3 +4,20 @@
     margin: 0;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+div{
+    border: 1px solid blue;
+}
+
+nav{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
