@@ -22,7 +22,6 @@ nav{
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    gap: 20px;
 }
 
 main{
@@ -112,4 +111,19 @@ header{
 
 .trending{
     margin-top: 45px;
+}
+
+.group2{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.group1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 10px;
 }
