@@ -143,8 +143,32 @@ header{
 }
 
 .trending{
+    border: 1px solid lightgrey;
+    background-color: white;
     margin-top: 45px;
+    border-radius: 25px;
+    
 }
+
+.tegan, .kendall, .alex{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 25px;
+    margin: 20px;
+
+    
+}
+
+.tegan-pfp, .kendall-pfp, .alex-pfp{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.t-header{
+    margin: 15px;
+}
+
+
 
 .group1, .group2{
     margin-left: 15px;
