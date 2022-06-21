@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+body,html{
+    height: 100vh;
+}
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -37,4 +40,26 @@ main{
 
 .cards-area{
     gap: 15px;
+}
+
+.top-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-side{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.left-side{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+input{
+    width: 250px;
 }
